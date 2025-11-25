@@ -12,6 +12,7 @@ public class SeguirJogador : MonoBehaviour
 
     void Update()
     {
+        // Pega a posição do jogador e passa para a camera somando a variavel de deslocamento
         transform.position = jogador.position + deslocamento;
     }
 }
