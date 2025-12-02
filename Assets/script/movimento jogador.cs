@@ -30,6 +30,7 @@ public class ControladorJogador : MonoBehaviour
     
     private Rigidbody2D rb;
     private float input;
+    
 
     void Start()
     {
@@ -88,19 +89,10 @@ public class ControladorJogador : MonoBehaviour
             StartCoroutine(CarregarProximaFase());
             // Aqui pode ir lógica para passar de fase, mostrar tela de vitória, etc.
         }
-    }
-    IEnumerator CarregarProximaFase()
-    {
-        yield return new WaitForSecondsRealtime(2f);
-        SceneManager.LoadScene("Final");
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Inimigo"))
+        if (outro.gameObject.CompareTag("Inimigo"))
         {
             vidas--;
-            Debug.Log("Você pulou em um cacto: " + vidas);
+            Debug.Log("Você perdeu 1 vida, boa sorte da proxima: " + vidas);
 
             if (vidas > 0)
             {
@@ -116,7 +108,12 @@ public class ControladorJogador : MonoBehaviour
             }
         }
 
-
-            
     }
+    IEnumerator CarregarProximaFase()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        SceneManager.LoadScene("Final");
+    }
+
+    
 }
