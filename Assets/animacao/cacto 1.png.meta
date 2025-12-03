@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 81c9dc7f0c95b234d89e538823d0bd26
+guid: 6ae5e9cbd1805474a98e8e34c0b8a176
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3622384725455302239
-    second: pixil-frame-0 (25)_0
+      213: 6372028344506145315
+    second: cacto 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 (25)_0
+      name: cacto 1_0
       rect:
         serializedVersion: 2
-        x: 356
-        y: 781
-        width: 1141
-        height: 410
+        x: 1671
+        y: 1407
+        width: 3082
+        height: 4314
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5e609037bb454230800000000000000
-      internalID: 3622384725455302239
+      spriteID: 32a5205d40efd6850800000000000000
+      internalID: 6372028344506145315
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      pixil-frame-0 (25)_0: 3622384725455302239
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

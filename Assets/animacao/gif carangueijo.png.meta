@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gif carangueijo_0: 5958308792441376547
+      gif carangueijo_1: -7507210249927677283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
